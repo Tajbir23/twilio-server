@@ -11,6 +11,7 @@ app.use(cors({
 }));
 
 app.get('/', (req, res) => {
+    console.log('Received GET request');
     res.send('Hello World');
 });
 
